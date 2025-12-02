@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+
+# Sitemaps
+Sitemap: https://tadtransport.se/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Google-specific
+User-agent: Googlebot
+Allow: /

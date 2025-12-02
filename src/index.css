@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root{
+  --tad-gold: #D4AF37;
+  --tad-gold-dark: #B78A2E;
+  --tad-bg-1: #0B0B0B;
+  --tad-bg-2: #1F1F1F;
+}
+
+html,body,#root{
+  height:100%;
+}
+
+body{
+  @apply text-gray-100;
+  background: linear-gradient(180deg,var(--tad-bg-1),var(--tad-bg-2));
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.btn-gold{
+  background: var(--tad-gold);
+  color: #0b0b0b;
+}
