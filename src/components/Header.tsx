@@ -7,11 +7,21 @@ export default function Header(){
   return (
     <header className="py-4 sticky top-0 z-50 bg-gradient-to-b from-tadBg1 to-tadBg2 border-b border-white/6">
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2">
-          <div className="w-10 h-10 bg-gradient-to-br from-white/10 to-transparent rounded flex items-center justify-center">
-            <span className="text-yellow-500 font-bold text-lg">T</span>
-          </div>
-          <span className="text-lg font-bold text-white hidden sm:inline">TadTransport</span>
+        <Link to="/" className="flex items-center gap-3">
+          <svg width="40" height="40" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            {/* Truck body */}
+            <path d="M40 120 L40 90 L110 90 L140 90 L165 100 L165 120 Z" stroke="#D4AF37" strokeWidth="6" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+            {/* Speed lines */}
+            <line x1="15" y1="85" x2="35" y2="85" stroke="#D4AF37" strokeWidth="5" strokeLinecap="round"/>
+            <line x1="20" y1="95" x2="40" y2="95" stroke="#D4AF37" strokeWidth="5" strokeLinecap="round"/>
+            <line x1="25" y1="105" x2="45" y2="105" stroke="#D4AF37" strokeWidth="5" strokeLinecap="round"/>
+            {/* Wheels */}
+            <circle cx="70" cy="130" r="12" stroke="#D4AF37" strokeWidth="5" fill="none"/>
+            <circle cx="145" cy="130" r="12" stroke="#D4AF37" strokeWidth="5" fill="none"/>
+            {/* Ground line */}
+            <line x1="30" y1="142" x2="175" y2="142" stroke="#D4AF37" strokeWidth="4" strokeLinecap="round"/>
+          </svg>
+          <span className="text-xl font-bold tracking-wider hidden sm:inline" style={{color: '#D4AF37', letterSpacing: '0.15em'}}>TAD TRANSPORT</span>
         </Link>
         
         {/* Desktop Nav */}

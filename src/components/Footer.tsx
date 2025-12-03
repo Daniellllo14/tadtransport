@@ -40,6 +40,7 @@ export default function Footer(){
               <p>📞 <a href="tel:+46707240639" className="hover:text-white transition">+46 70-724 06 39</a></p>
               <p>✉️ <a href="mailto:info@tadtransport.se" className="hover:text-white transition">info@tadtransport.se</a></p>
               <p>🏢 Org.nr: 559541-8087</p>
+              <p className="text-tad-gold text-xs font-semibold mt-1">✓ Godkänd för yrkesmässig trafik</p>
             </div>
           </div>
         </div>
