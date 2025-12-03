@@ -31,7 +31,7 @@ export default function Hero(){
             <Link to="/kontakt" className="btn-gold px-8 py-4 rounded-lg font-semibold shadow-2xl hover:opacity-90 transition text-lg">
               Börja samarbeta
             </Link>
-            <Link to="/tjanster" className="px-8 py-4 rounded-lg border-2 border-white/30 text-white hover:bg-white/10 transition text-lg font-semibold">
+            <Link to="/tjanster" className="px-8 py-4 rounded-lg border-2 border-tadGold/30 text-white hover:bg-tadGold/5 transition text-lg font-semibold">
               Läs om vår service
             </Link>
           </div>
