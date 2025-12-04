@@ -5,25 +5,11 @@ export default function Header(){
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="py-4 sticky top-0 z-50 bg-gradient-to-b from-tadBg1 to-tadBg2 border-b border-white/6">
+    <header className="py-4 sticky top-0 z-50 bg-[#0B0B0B]">
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 bg-transparent">
-          <svg width="50" height="32" viewBox="0 0 240 160" fill="none" xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0">
-            {/* Speed lines */}
-            <line x1="20" y1="60" x2="50" y2="60" stroke="#D4AF37" strokeWidth="7" strokeLinecap="round"/>
-            <line x1="25" y1="72" x2="55" y2="72" stroke="#D4AF37" strokeWidth="7" strokeLinecap="round"/>
-            <line x1="30" y1="84" x2="60" y2="84" stroke="#D4AF37" strokeWidth="7" strokeLinecap="round"/>
-            {/* Truck cab */}
-            <path d="M 70 95 L 70 60 L 120 60 L 120 95" stroke="#D4AF37" strokeWidth="8" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
-            {/* Truck cargo */}
-            <path d="M 120 65 L 185 65 L 195 75 L 195 95 L 120 95" stroke="#D4AF37" strokeWidth="8" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
-            {/* Wheels */}
-            <circle cx="95" cy="105" r="13" stroke="#D4AF37" strokeWidth="7" fill="none"/>
-            <circle cx="170" cy="105" r="13" stroke="#D4AF37" strokeWidth="7" fill="none"/>
-            {/* Ground */}
-            <line x1="50" y1="118" x2="210" y2="118" stroke="#D4AF37" strokeWidth="5" strokeLinecap="round"/>
-          </svg>
-          <span className="text-lg sm:text-xl font-bold tracking-widest hidden sm:inline-block" style={{color: '#D4AF37', letterSpacing: '0.2em'}}>TAD TRANSPORT</span>
+        <Link to="/" className="flex items-center bg-transparent">
+          <img src="/images/favicon.png" alt="TAD Transport" className="w-32 h-auto flex-shrink-0" />
+          <span className="text-lg sm:text-xl font-bold tracking-widest hidden sm:inline-block -ml-12" style={{color: '#D4AF37', letterSpacing: '0.2em'}}>TAD TRANSPORT</span>
         </Link>
         
         {/* Desktop Nav */}

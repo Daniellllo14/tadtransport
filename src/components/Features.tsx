@@ -1,12 +1,12 @@
 import React from 'react'
 
 const items = [
-  { icon: '⚡', title: 'Snabb leverans', desc: 'Expressleveranser och samma dag-service när det behövs.' },
-  { icon: '🎯', title: 'Full spårbarhet', desc: 'Realtidsuppföljning från upphämtning till leverans.' },
-  { icon: '✅', title: 'Tillförlitlig service', desc: 'Punktliga leveranser enligt överenskommelse.' },
-  { icon: '🤝', title: 'Personlig kontakt', desc: 'Direktkontakt med erfarna medarbetare.' },
-  { icon: '📱', title: 'Tillgängliga', desc: 'Snabb respons via telefon och e-post.' },
-  { icon: '💼', title: 'B2B-specialister', desc: 'Anpassade lösningar för företag och organisationer.' },
+  { icon: '⚡', title: 'Kontraktsleveranser', desc: 'Pålitliga last mile-leveranser som B2B-underleverantör till logistikföretag.' },
+  { icon: '🎯', title: 'Full spårbarhet', desc: 'Realtidsuppföljning och rapportering från upphämtning till leverans.' },
+  { icon: '✅', title: 'Hög punktlighet', desc: 'Garanterad leverans enligt avtalad tidpunkt och kontraktsvillkor.' },
+  { icon: '🤝', title: 'Erfarna chaufförer', desc: 'Professionella förare med god lokalkunskap och yrkeskompetens.' },
+  { icon: '📱', title: 'Snabb kommunikation', desc: 'Direkt kontakt med operatörer vid avvikelser eller ändringar.' },
+  { icon: '💼', title: 'Företagsfokus', desc: 'Specialiserade på kontraktsbaserade transportlösningar för B2B-kunder.' },
 ]
 
 export default function Features(){

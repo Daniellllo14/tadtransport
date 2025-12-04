@@ -15,7 +15,7 @@ html,body,#root{
 
 body{
   @apply text-gray-100;
-  background: linear-gradient(180deg,var(--tad-bg-1),var(--tad-bg-2));
+  background: #0B0B0B;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
 }

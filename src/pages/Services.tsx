@@ -4,8 +4,8 @@ const services = [
   {
     icon: '📦',
     title: 'Paketleveranser',
-    desc: 'Pålitliga paketleveranser för e-handel, retail och privatpersoner.',
-    features: ['Expressleverans tillgänglig', 'Spårning i realtid', 'Fullständig försäkring', 'Direktkontakt']
+    desc: 'Professionella paketleveranser för företag och logistikpartners.',
+    features: ['Kontraktsbaserade leveranser', 'Spårning i realtid', 'Fullständig försäkring', 'Direktkontakt']
   },
   {
     icon: '🚚',
@@ -32,8 +32,8 @@ export default function Services(){
     <section className="pt-20 pb-16">
       <div className="container mx-auto px-6">
         <div className="mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Våra tjänster</h1>
-          <p className="text-gray-400 max-w-2xl mb-8">Professionella transport- och logistiklösningar för företag och privatpersoner.</p>
+        <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">Våra tjänster</h1>
+        <p className="text-gray-400 max-w-2xl mb-8">Kontraktsbaserade transportlösningar för företag och B2B-logistikpartners.</p>
           <img 
             src="/images/logistics-warehouse.jpg" 
             alt="TAD transport logistiklager med paket och arbetare" 

@@ -49,8 +49,8 @@ export default function Footer(){
         <div className="border-t border-white/6 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
           <p>© {new Date().getFullYear()} TAD transport AB. Org.nr: 559541-8087</p>
           <div className="flex gap-4 mt-4 md:mt-0">
-            <a href="#" className="hover:text-white transition">Integritetspolicy</a>
-            <a href="#" className="hover:text-white transition">Användarvillkor</a>
+            <Link to="/integritetspolicy" className="hover:text-white transition">Integritetspolicy</Link>
+            <Link to="/anvandarvillkor" className="hover:text-white transition">Användarvillkor</Link>
           </div>
         </div>
       </div>
